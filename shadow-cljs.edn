@@ -1,0 +1,6 @@
+;; shadow-cljs configuration
+{:deps true
+ :builds
+ {:app {:target :browser
+        :modules
+        {:main {:init-fn example.core/main}}}}}
